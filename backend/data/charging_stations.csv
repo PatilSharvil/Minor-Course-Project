@@ -1,0 +1,51 @@
+station_id,name,latitude,longitude,total_chargers,charger_types,power_kw,price_per_kwh,amenities
+1,Charging Hub 1,19.050908,72.967843,8,"['CCS', 'CHAdeMO']",50,9.56,"['Parking', 'Restroom', 'Restaurant']"
+2,Charging Hub 2,18.987282,72.9221,6,"['CCS', 'CHAdeMO']",250,14.12,['Restroom']
+3,Charging Hub 3,19.055972,72.787033,10,"['Type 2', 'Tesla Supercharger']",150,14.18,"['Restroom', 'Restaurant', 'WiFi']"
+4,Charging Hub 4,19.112062,72.8678,6,"['Tesla Supercharger', 'CHAdeMO']",50,11.05,['Parking']
+5,Charging Hub 5,19.000408,72.876735,8,"['Tesla Supercharger', 'CHAdeMO']",250,11.12,"['Cafe', 'Parking']"
+6,Charging Hub 6,19.169917,72.932727,6,"['CHAdeMO', 'Type 2']",250,11.27,"['Cafe', 'Restaurant']"
+7,Charging Hub 7,19.125464,72.885638,6,['CCS'],22,16.02,['Cafe']
+8,Charging Hub 8,19.034698,72.780516,8,['CCS'],22,14.06,"['Restaurant', 'WiFi']"
+9,Charging Hub 9,19.10066,72.84388,12,['CHAdeMO'],150,12.72,['WiFi']
+10,Charging Hub 10,19.023197,72.828914,8,['Type 2'],50,12.39,"['Cafe', 'WiFi', 'Restroom']"
+11,Charging Hub 11,19.025858,72.859777,8,['CHAdeMO'],150,10.9,"['Cafe', 'Restaurant']"
+12,Charging Hub 12,19.102681,72.951992,10,"['Type 2', 'CHAdeMO']",150,11.24,"['Restaurant', 'WiFi', 'Restroom']"
+13,Charging Hub 13,19.030426,72.907238,4,"['CCS', 'CHAdeMO']",150,9.65,"['Shopping', 'Restroom', 'Cafe']"
+14,Charging Hub 14,19.043523,72.966282,4,"['CHAdeMO', 'Tesla Supercharger']",50,17.62,"['Restaurant', 'WiFi']"
+15,Charging Hub 15,19.175548,72.831056,6,"['CHAdeMO', 'Type 2']",22,11.45,['Shopping']
+16,Charging Hub 16,19.086579,72.896239,8,"['CCS', 'Tesla Supercharger']",50,11.68,"['Restroom', 'Shopping']"
+17,Charging Hub 17,19.040156,72.815004,12,['Type 2'],150,15.11,"['Parking', 'Restroom', 'Restaurant']"
+18,Charging Hub 18,19.164105,72.857214,6,"['Tesla Supercharger', 'CCS']",22,9.13,"['Parking', 'WiFi', 'Shopping']"
+19,Charging Hub 19,19.010991,72.974134,10,"['CHAdeMO', 'Tesla Supercharger']",250,17.65,['Restroom']
+20,Charging Hub 20,19.045842,72.922891,8,"['Type 2', 'CHAdeMO']",22,14.42,"['Cafe', 'Restaurant', 'WiFi']"
+21,Charging Hub 21,19.050457,72.965727,4,['Type 2'],50,14.92,['Cafe']
+22,Charging Hub 22,19.04108,72.926998,8,['CHAdeMO'],250,13.09,"['Parking', 'Shopping']"
+23,Charging Hub 23,19.102228,72.936662,4,"['CCS', 'Tesla Supercharger']",250,15.22,"['WiFi', 'Restroom', 'Parking']"
+24,Charging Hub 24,19.011422,72.965792,12,"['CHAdeMO', 'Tesla Supercharger']",250,8.15,['Restaurant']
+25,Charging Hub 25,19.146602,72.83659,12,"['Tesla Supercharger', 'CCS']",150,9.69,['Parking']
+26,Charging Hub 26,19.017784,72.911929,6,['Type 2'],50,15.41,['Shopping']
+27,Charging Hub 27,19.035302,72.861656,6,['CHAdeMO'],50,8.05,['WiFi']
+28,Charging Hub 28,18.986154,72.955023,10,"['Tesla Supercharger', 'Type 2']",50,11.28,"['Parking', 'Cafe']"
+29,Charging Hub 29,18.9821,72.78517,8,"['CHAdeMO', 'CCS']",22,10.72,['Cafe']
+30,Charging Hub 30,19.115902,72.805371,12,"['Type 2', 'CHAdeMO']",150,15.95,"['Parking', 'WiFi', 'Restaurant']"
+31,Charging Hub 31,18.98107,72.97023,4,"['CHAdeMO', 'CCS']",50,9.56,"['Restroom', 'Cafe']"
+32,Charging Hub 32,19.103654,72.881039,12,"['CCS', 'Tesla Supercharger']",250,13.66,"['Shopping', 'Cafe', 'Restroom']"
+33,Charging Hub 33,18.985201,72.785846,10,['Type 2'],250,16.07,['Parking']
+34,Charging Hub 34,19.165829,72.955036,10,['CHAdeMO'],50,13.01,['Parking']
+35,Charging Hub 35,18.981302,72.894855,8,"['CHAdeMO', 'Type 2']",250,9.29,['Restroom']
+36,Charging Hub 36,19.168238,72.95877,10,['Tesla Supercharger'],50,8.39,"['Restaurant', 'Shopping']"
+37,Charging Hub 37,19.112323,72.845825,8,['Tesla Supercharger'],50,14.29,['Restroom']
+38,Charging Hub 38,19.085594,72.862394,8,['Tesla Supercharger'],150,13.81,"['Restroom', 'Cafe', 'Parking']"
+39,Charging Hub 39,19.126174,72.928609,4,"['CHAdeMO', 'CCS']",250,16.26,"['Shopping', 'Restroom']"
+40,Charging Hub 40,18.978168,72.958776,10,['Tesla Supercharger'],250,12.83,"['Shopping', 'Restroom']"
+41,Charging Hub 41,19.110504,72.928175,4,['CHAdeMO'],50,8.58,"['Restaurant', 'Parking', 'Shopping']"
+42,Charging Hub 42,19.046183,72.801113,10,['Type 2'],22,9.01,"['Cafe', 'Parking', 'Restroom']"
+43,Charging Hub 43,19.140372,72.918948,12,['CHAdeMO'],250,11.74,['Restroom']
+44,Charging Hub 44,19.1732,72.928376,10,['Tesla Supercharger'],50,15.05,"['Shopping', 'Parking']"
+45,Charging Hub 45,19.026736,72.85874,6,"['CCS', 'CHAdeMO']",22,15.44,"['Restaurant', 'Cafe', 'Parking']"
+46,Charging Hub 46,19.071543,72.794278,4,"['Tesla Supercharger', 'CHAdeMO']",250,17.78,['Cafe']
+47,Charging Hub 47,19.174593,72.792459,8,['CHAdeMO'],150,14.29,"['Cafe', 'Restaurant']"
+48,Charging Hub 48,19.156232,72.786789,10,"['Type 2', 'CHAdeMO']",250,14.2,"['Parking', 'Cafe']"
+49,Charging Hub 49,19.092731,72.793247,4,"['Type 2', 'CCS']",150,13.36,['Restroom']
+50,Charging Hub 50,19.158185,72.942207,6,['CCS'],22,12.18,"['Restaurant', 'WiFi']"

@@ -1,0 +1,30 @@
+{
+  "demand_model": {
+    "features": [
+      "day_of_week",
+      "hour_of_day",
+      "is_weekend",
+      "is_peak_hour"
+    ],
+    "target": "energy_demanded_kwh"
+  },
+  "range_model": {
+    "features": [
+      "battery_level",
+      "battery_capacity",
+      "driving_condition_normal",
+      "driving_condition_highway",
+      "driving_condition_city"
+    ],
+    "target": "predicted_range_km"
+  },
+  "grid_model": {
+    "features": [
+      "hour_of_day",
+      "day_of_week",
+      "month",
+      "temperature_celsius"
+    ],
+    "target": "grid_load_percentage"
+  }
+}

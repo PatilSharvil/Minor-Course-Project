@@ -1,0 +1,71 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# Data (keep sample data, ignore large files)
+data/*.csv
+data/*.pkl
+!data/.gitkeep
+
+# ML Models (ignore large model files)
+ml_models/*.pkl
+ml_models/*.h5
+ml_models/*.joblib
+!ml_models/.gitkeep
+
+# Coverage
+coverage/
+.coverage
+htmlcov/
+
+# Testing
+.pytest_cache/
+.tox/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Qwen temporary files
+.qwen/

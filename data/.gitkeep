@@ -1,0 +1,16 @@
+# Data Directory
+
+This directory contains synthetic datasets for the EV Charging Scheduler project.
+
+## Files (to be generated):
+
+1. **charging_stations.csv** - Charging station locations and specifications
+2. **ev_demand_patterns.csv** - User charging demand patterns
+3. **grid_load_data.csv** - Grid load variations by time
+4. **energy_pricing.csv** - Time-of-use energy pricing
+5. **ev_specifications.csv** - Electric vehicle specifications
+
+## Note
+
+All data is synthetically generated for demonstration purposes.
+No real IoT devices or actual grid data is used in this project.

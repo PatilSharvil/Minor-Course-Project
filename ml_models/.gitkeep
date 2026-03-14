@@ -1,0 +1,14 @@
+# ML Models Directory
+
+This directory contains trained machine learning models.
+
+## Models (to be trained):
+
+1. **demand_predictor.pkl** - Predicts charging station demand
+2. **range_predictor.pkl** - Predicts EV travel range
+3. **grid_load_forecaster.pkl** - Forecasts grid load patterns
+
+## Note
+
+Models will be trained on synthetic data and saved here.
+Run the training scripts in the backend to generate models.
