@@ -197,38 +197,6 @@ Full API documentation: **http://localhost:8000/docs**
 
 ---
 
-## 🎓 Academic Use
-
-This project is developed as a **Minor Project** for college.
-
-**Team:** [Your Name]  
-**Guide:** [Guide Name]  
-**Institution:** [College/University Name]  
-**Department:** [Department Name]
-
----
-
-## 🚀 Deployment
-
-### Frontend (Vercel)
-1. Push to GitHub
-2. Connect to Vercel
-3. Set `VITE_API_URL` environment variable
-4. Deploy automatically on push
-
-### Backend (Render)
-1. Push to GitHub
-2. Create Web Service
-3. Set root directory to `backend`
-4. Configure build & start commands
-
----
-
-## 📝 License
-
-MIT License - See [LICENSE](LICENSE) for details.
-
----
 
 ## 🙏 Acknowledgments
 
@@ -236,15 +204,3 @@ MIT License - See [LICENSE](LICENSE) for details.
 - React Three Fiber
 - Scikit-learn
 - Three.js
-
----
-
-## 📞 Contact
-
-For questions or support:
-- Email: [your-email@example.com]
-- GitHub: [your-username]
-
----
-
-**Built with ❤️ for a sustainable EV future**
