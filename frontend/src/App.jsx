@@ -1,11 +1,8 @@
 import { useState, useEffect } from 'react';
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Sky, Stars } from '@react-three/drei';
 import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
-import Map3DScene from './scenes/Map3DScene';
-import StationList from './components/StationList';
-import RangePredictor from './components/RangePredictor';
+import SmartMap from './components/SmartMap';
+import VehicleControls from './components/VehicleControls';
+import StationRecommender from './components/StationRecommender';
 import GridDashboard from './components/GridDashboard';
 import './App.css';
 
@@ -17,6 +14,24 @@ function App() {
   const [stations, setStations] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  
+  // User location state
+  const [userLocation, setUserLocation] = useState(null);
+  
+  // Vehicle data state
+  const [vehicleData, setVehicleData] = useState({
+    battery_level: 80,
+    battery_capacity: 60,
+    vehicle_model: 'Tesla Model 3',
+    driving_conditions: 'normal',
+    speed: 60
+  });
+  
+  // Range prediction state
+  const [rangePrediction, setRangePrediction] = useState(null);
+  
+  // Selected station state
+  const [selectedStation, setSelectedStation] = useState(null);
 
   useEffect(() => {
     // Fetch stations on mount
@@ -37,6 +52,22 @@ function App() {
     }
   };
 
+  const handleLocationSelect = (location) => {
+    setUserLocation(location);
+  };
+
+  const handleStationSelect = (station) => {
+    setSelectedStation(station);
+  };
+
+  const handlePredictRange = (prediction) => {
+    setRangePrediction(prediction);
+  };
+
+  const handleFindStations = () => {
+    setActiveView('recommendations');
+  };
+
   return (
     <div className="app-container">
       <Navbar activeView={activeView} setActiveView={setActiveView} />
@@ -46,37 +77,91 @@ function App() {
           <div className="alert alert-danger m-3" role="alert" style={{ maxWidth: '600px' }}>
             ⚠️ {error}
             <br />
-            <small>To start the backend: <code>cd backend &amp;&amp; python run_server.py</code></small>
+            <small>To start the backend: <code>cd backend && python run_server.py</code></small>
           </div>
         )}
 
         {activeView === 'map' && (
-          <div className="map-view">
-            <div className="canvas-container">
-              <Canvas camera={{ position: [0, 100, 200], fov: 60 }}>
-                <Sky sunPosition={[100, 20, 100]} />
-                <Stars radius={300} depth={50} count={5000} factor={4} saturation={0} fade speed={1} />
-                <ambientLight intensity={0.5} />
-                <directionalLight position={[100, 100, 50]} intensity={1} castShadow />
-                <Map3DScene stations={stations} />
-                <OrbitControls 
-                  enablePan={true} 
-                  enableZoom={true} 
-                  enableRotate={true}
-                  minDistance={50}
-                  maxDistance={500}
-                />
-              </Canvas>
+          <div className="map-view" style={{ display: 'flex', height: 'calc(100vh - 70px)' }}>
+            {/* Left Panel - Vehicle Controls */}
+            <div style={{ 
+              width: '380px', 
+              padding: '20px', 
+              background: 'rgba(10, 10, 15, 0.5)',
+              overflowY: 'auto'
+            }}>
+              <VehicleControls 
+                vehicleData={vehicleData}
+                setVehicleData={setVehicleData}
+                onPredictRange={handlePredictRange}
+                onFindStations={handleFindStations}
+              />
             </div>
-            <StationList stations={stations} loading={loading} />
+
+            {/* Center - 2D Map */}
+            <div style={{ flex: 1, position: 'relative' }}>
+              <SmartMap 
+                stations={stations}
+                userLocation={userLocation}
+                onLocationSelect={handleLocationSelect}
+                selectedStation={selectedStation}
+                onStationSelect={handleStationSelect}
+              />
+            </div>
+
+            {/* Right Panel - Station Recommendations */}
+            <div style={{ 
+              width: '420px', 
+              padding: '20px', 
+              background: 'rgba(10, 10, 15, 0.5)',
+              overflowY: 'auto'
+            }}>
+              <StationRecommender 
+                stations={stations}
+                userLocation={userLocation}
+                vehicleData={vehicleData}
+                rangePrediction={rangePrediction}
+                selectedStation={selectedStation}
+                onStationSelect={handleStationSelect}
+              />
+            </div>
           </div>
         )}
 
-        {activeView === 'range' && <RangePredictor />}
+        {activeView === 'recommendations' && (
+          <div className="map-view" style={{ display: 'flex', height: 'calc(100vh - 70px)' }}>
+            {/* Full width recommendations */}
+            <div style={{ 
+              width: '500px', 
+              padding: '20px', 
+              background: 'rgba(10, 10, 15, 0.5)',
+              overflowY: 'auto'
+            }}>
+              <StationRecommender 
+                stations={stations}
+                userLocation={userLocation}
+                vehicleData={vehicleData}
+                rangePrediction={rangePrediction}
+                selectedStation={selectedStation}
+                onStationSelect={handleStationSelect}
+              />
+            </div>
+            
+            <div style={{ flex: 1, position: 'relative' }}>
+              <SmartMap 
+                stations={stations}
+                userLocation={userLocation}
+                onLocationSelect={handleLocationSelect}
+                selectedStation={selectedStation}
+                onStationSelect={handleStationSelect}
+              />
+            </div>
+          </div>
+        )}
+
+        {activeView === 'range' && <GridDashboard />}
         {activeView === 'grid' && <GridDashboard />}
       </main>
-
-      <HeroSection show={activeView === 'map'} />
     </div>
   );
 }

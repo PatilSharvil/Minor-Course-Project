@@ -1,0 +1,877 @@
+[
+  {
+    "id": 1,
+    "name": "Tata Power - CSMT Station",
+    "latitude": 18.9398,
+    "longitude": 72.8355,
+    "address": "Chhatrapati Shivaji Maharaj Terminus, Fort, Mumbai",
+    "total_chargers": 4,
+    "available_chargers": 3,
+    "charger_types": [
+      "Type 2",
+      "CCS",
+      "CHAdeMO"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 14.0,
+    "amenities": [
+      "Parking",
+      "Restroom",
+      "Food Court",
+      "WiFi"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Tata Power - Gateway of India",
+    "latitude": 18.922,
+    "longitude": 72.8347,
+    "address": "Apollo Bunder Road, Near Gateway of India, Fort, Mumbai",
+    "total_chargers": 3,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      22,
+      50
+    ],
+    "price_per_kwh": 15.0,
+    "amenities": [
+      "Parking",
+      "Restaurant",
+      "Tourist Area"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Tata Power - Bandra Kurla Complex",
+    "latitude": 19.0633,
+    "longitude": 72.8686,
+    "address": "BKC Main Road, Bandra East, Mumbai",
+    "total_chargers": 6,
+    "available_chargers": 4,
+    "charger_types": [
+      "Type 2",
+      "CCS",
+      "CHAdeMO",
+      "Tesla Supercharger"
+    ],
+    "power_kw": [
+      50,
+      150,
+      250
+    ],
+    "price_per_kwh": 16.0,
+    "amenities": [
+      "Parking",
+      "Shopping",
+      "Restaurant",
+      "WiFi"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Tata Power - Phoenix Marketcity",
+    "latitude": 19.0868,
+    "longitude": 72.893,
+    "address": "Lal Bahadur Shastri Marg, Kurla West, Mumbai",
+    "total_chargers": 5,
+    "available_chargers": 3,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 13.5,
+    "amenities": [
+      "Parking",
+      "Shopping Mall",
+      "Food Court",
+      "Cinema"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Tata Power - Andheri East",
+    "latitude": 19.1136,
+    "longitude": 72.8697,
+    "address": "Teli Gali Road, Andheri East, Mumbai",
+    "total_chargers": 4,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS",
+      "CHAdeMO"
+    ],
+    "power_kw": [
+      25,
+      50
+    ],
+    "price_per_kwh": 14.5,
+    "amenities": [
+      "Parking",
+      "Restaurant",
+      "Hotel"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Tata Power - Worli Sea Link",
+    "latitude": 19.033,
+    "longitude": 72.8181,
+    "address": "Annie Besant Road, Worli, Mumbai",
+    "total_chargers": 3,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 15.5,
+    "amenities": [
+      "Parking",
+      "Sea View",
+      "Cafe"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Tata Power - Lower Parel",
+    "latitude": 19.0008,
+    "longitude": 72.8289,
+    "address": "Senapati Bapat Marg, Lower Parel, Mumbai",
+    "total_chargers": 5,
+    "available_chargers": 4,
+    "charger_types": [
+      "Type 2",
+      "CCS",
+      "CHAdeMO"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 14.0,
+    "amenities": [
+      "Parking",
+      "Shopping",
+      "Restaurant",
+      "Office Complex"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Tata Power - Dadar TT",
+    "latitude": 19.0178,
+    "longitude": 72.8478,
+    "address": "Dadar TT Circle, Dadar East, Mumbai",
+    "total_chargers": 3,
+    "available_chargers": 1,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      22,
+      50
+    ],
+    "price_per_kwh": 13.0,
+    "amenities": [
+      "Parking",
+      "Market",
+      "Temple"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Tata Power - Prabhadevi",
+    "latitude": 19.0144,
+    "longitude": 72.8309,
+    "address": "Veer Savarkar Marg, Prabhadevi, Mumbai",
+    "total_chargers": 4,
+    "available_chargers": 3,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 14.5,
+    "amenities": [
+      "Parking",
+      "Temple",
+      "Restaurant"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Tata Power - Colaba",
+    "latitude": 18.9067,
+    "longitude": 72.8147,
+    "address": "Nathalal Parikh Marg, Colaba, Mumbai",
+    "total_chargers": 3,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      22,
+      50
+    ],
+    "price_per_kwh": 15.0,
+    "amenities": [
+      "Parking",
+      "Tourist Area",
+      "Restaurant",
+      "Hotel"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Tata Power - Goregaon East",
+    "latitude": 19.1663,
+    "longitude": 72.8526,
+    "address": "Western Express Highway, Goregaon East, Mumbai",
+    "total_chargers": 4,
+    "available_chargers": 3,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 13.5,
+    "amenities": [
+      "Parking",
+      "Shopping",
+      "Restaurant"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Tata Power - Kandivali East",
+    "latitude": 19.2073,
+    "longitude": 72.8505,
+    "address": "90 Feet Road, Kandivali East, Mumbai",
+    "total_chargers": 3,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      22,
+      50
+    ],
+    "price_per_kwh": 12.5,
+    "amenities": [
+      "Parking",
+      "Residential",
+      "School"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Tata Power - Borivali",
+    "latitude": 19.2304,
+    "longitude": 72.8565,
+    "address": "Dattapada Road, Borivali East, Mumbai",
+    "total_chargers": 4,
+    "available_chargers": 3,
+    "charger_types": [
+      "Type 2",
+      "CCS",
+      "CHAdeMO"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 13.0,
+    "amenities": [
+      "Parking",
+      "National Park",
+      "Restaurant"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Tata Power - Malad West",
+    "latitude": 19.1864,
+    "longitude": 72.8347,
+    "address": "Marve Road, Malad West, Mumbai",
+    "total_chargers": 3,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 13.5,
+    "amenities": [
+      "Parking",
+      "Beach",
+      "Restaurant"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Tata Power - Andheri West",
+    "latitude": 19.135,
+    "longitude": 72.8265,
+    "address": "KL Walawalkar Marg, Andheri West, Mumbai",
+    "total_chargers": 4,
+    "available_chargers": 3,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 14.0,
+    "amenities": [
+      "Parking",
+      "Metro Station",
+      "Shopping"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Tata Power - Vikhroli",
+    "latitude": 19.1076,
+    "longitude": 72.9256,
+    "address": "Godrej One, Vikhroli East, Mumbai",
+    "total_chargers": 3,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      22,
+      50
+    ],
+    "price_per_kwh": 13.0,
+    "amenities": [
+      "Parking",
+      "Garden",
+      "Office Complex"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Tata Power - Chembur",
+    "latitude": 19.0633,
+    "longitude": 72.8997,
+    "address": "Mahul Road, Chembur East, Mumbai",
+    "total_chargers": 3,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 12.5,
+    "amenities": [
+      "Parking",
+      "Hospital",
+      "Restaurant"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Tata Power - Bhandup",
+    "latitude": 19.1454,
+    "longitude": 72.937,
+    "address": "Lake Road, Bhandup West, Mumbai",
+    "total_chargers": 3,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 12.0,
+    "amenities": [
+      "Parking",
+      "Lake",
+      "Residential"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Tata Power - Nariman Point",
+    "latitude": 18.9254,
+    "longitude": 72.8243,
+    "address": "Nariman Point, Mumbai",
+    "total_chargers": 4,
+    "available_chargers": 3,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 16.0,
+    "amenities": [
+      "Parking",
+      "Business District",
+      "Restaurant",
+      "Hotel"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Tata Power - Cuffe Parade",
+    "latitude": 18.9147,
+    "longitude": 72.8109,
+    "address": "Cuffe Parade, Mumbai",
+    "total_chargers": 3,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 16.5,
+    "amenities": [
+      "Parking",
+      "Sea View",
+      "Restaurant"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Tata Power - Vile Parle",
+    "latitude": 19.099,
+    "longitude": 72.8465,
+    "address": "90 Feet Road, Vile Parle East, Mumbai",
+    "total_chargers": 3,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      22,
+      50
+    ],
+    "price_per_kwh": 14.0,
+    "amenities": [
+      "Parking",
+      "Airport",
+      "Hotel"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Tata Power - Santacruz",
+    "latitude": 19.0825,
+    "longitude": 72.8417,
+    "address": "Santacruz East, Mumbai",
+    "total_chargers": 3,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      22,
+      50
+    ],
+    "price_per_kwh": 14.5,
+    "amenities": [
+      "Parking",
+      "Airport",
+      "Restaurant"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "IOCL - Breach Candy",
+    "latitude": 18.975,
+    "longitude": 72.8011,
+    "address": "Bhulabhai Desai Road, Breach Candy, Mumbai",
+    "total_chargers": 2,
+    "available_chargers": 1,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 15.0,
+    "amenities": [
+      "Parking",
+      "Hospital",
+      "Garden"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Tata Power - Bandra West",
+    "latitude": 19.0544,
+    "longitude": 72.8312,
+    "address": "SV Road, Bandra West, Mumbai",
+    "total_chargers": 4,
+    "available_chargers": 3,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 15.5,
+    "amenities": [
+      "Parking",
+      "Shopping",
+      "Restaurant",
+      "Bandstand"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Tata Power - Mahalaxmi",
+    "latitude": 18.9826,
+    "longitude": 72.8311,
+    "address": "Senapati Bapat Marg, Mahalaxmi, Mumbai",
+    "total_chargers": 3,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 14.5,
+    "amenities": [
+      "Parking",
+      "Race Course",
+      "Temple"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Tata Power - Pune Station",
+    "latitude": 18.5283,
+    "longitude": 73.8737,
+    "address": "Pune Railway Station, Agarkar Chowk, Pune",
+    "total_chargers": 4,
+    "available_chargers": 3,
+    "charger_types": [
+      "Type 2",
+      "CCS",
+      "CHAdeMO"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 13.0,
+    "amenities": [
+      "Parking",
+      "Railway Station",
+      "Food Court"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Tata Power - Pune Airport",
+    "latitude": 18.5821,
+    "longitude": 73.9197,
+    "address": "Pune Airport Road, Viman Nagar, Pune",
+    "total_chargers": 5,
+    "available_chargers": 4,
+    "charger_types": [
+      "Type 2",
+      "CCS",
+      "CHAdeMO"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 14.0,
+    "amenities": [
+      "Parking",
+      "Airport",
+      "Restaurant",
+      "Hotel"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Tata Power - Hinjewadi IT Park",
+    "latitude": 18.5912,
+    "longitude": 73.7389,
+    "address": "Hinjewadi Phase 1, Rajiv Gandhi Infotech Park, Pune",
+    "total_chargers": 6,
+    "available_chargers": 4,
+    "charger_types": [
+      "Type 2",
+      "CCS",
+      "CHAdeMO"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 13.5,
+    "amenities": [
+      "Parking",
+      "IT Park",
+      "Food Court",
+      "Shopping"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Tata Power - Koregaon Park",
+    "latitude": 18.5362,
+    "longitude": 73.8978,
+    "address": "North Main Road, Koregaon Park, Pune",
+    "total_chargers": 3,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      22,
+      50
+    ],
+    "price_per_kwh": 14.5,
+    "amenities": [
+      "Parking",
+      "Restaurant",
+      "Cafe",
+      "Shopping"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Tata Power - Baner",
+    "latitude": 18.559,
+    "longitude": 73.7814,
+    "address": "Baner Road, Pune",
+    "total_chargers": 4,
+    "available_chargers": 3,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 13.0,
+    "amenities": [
+      "Parking",
+      "Residential",
+      "Shopping",
+      "Restaurant"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Tata Power - Wakad",
+    "latitude": 18.5793,
+    "longitude": 73.7696,
+    "address": "Wakad Road, Pune",
+    "total_chargers": 3,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 12.5,
+    "amenities": [
+      "Parking",
+      "Residential",
+      "Mall"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Tata Power - Kothrud",
+    "latitude": 18.5074,
+    "longitude": 73.8077,
+    "address": "Paud Road, Kothrud, Pune",
+    "total_chargers": 3,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      22,
+      50
+    ],
+    "price_per_kwh": 13.0,
+    "amenities": [
+      "Parking",
+      "Residential",
+      "Market"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Tata Power - Deccan",
+    "latitude": 18.5196,
+    "longitude": 73.8381,
+    "address": "Deccan Gymkhana, Pune",
+    "total_chargers": 3,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 13.5,
+    "amenities": [
+      "Parking",
+      "Gymkhana",
+      "Restaurant",
+      "Shopping"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Tata Power - Shivaji Nagar",
+    "latitude": 18.5308,
+    "longitude": 73.8478,
+    "address": "Shivaji Nagar, Pune",
+    "total_chargers": 3,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 13.0,
+    "amenities": [
+      "Parking",
+      "Railway Station",
+      "Bus Stand"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Tata Power - Hadapsar",
+    "latitude": 18.5089,
+    "longitude": 73.926,
+    "address": "Hadapsar Industrial Estate, Pune",
+    "total_chargers": 4,
+    "available_chargers": 3,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 12.5,
+    "amenities": [
+      "Parking",
+      "Industrial Area",
+      "Restaurant"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Shell EV - Magarpatta",
+    "latitude": 18.5156,
+    "longitude": 73.924,
+    "address": "Magarpatta City, Hadapsar, Pune",
+    "total_chargers": 3,
+    "available_chargers": 2,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 13.5,
+    "amenities": [
+      "Parking",
+      "IT Park",
+      "Shopping",
+      "Food Court"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Tata Power - Viman Nagar",
+    "latitude": 18.5679,
+    "longitude": 73.8988,
+    "address": "Viman Nagar, Pune",
+    "total_chargers": 4,
+    "available_chargers": 3,
+    "charger_types": [
+      "Type 2",
+      "CCS"
+    ],
+    "power_kw": [
+      50,
+      150
+    ],
+    "price_per_kwh": 13.5,
+    "amenities": [
+      "Parking",
+      "Airport",
+      "Mall",
+      "Restaurant"
+    ]
+  }
+]

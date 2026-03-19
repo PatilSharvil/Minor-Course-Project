@@ -1,0 +1,38 @@
+id,name,latitude,longitude,address,total_chargers,available_chargers,charger_types,power_kw,price_per_kwh,amenities
+1,Tata Power - CSMT Station,18.9398,72.8355,"Chhatrapati Shivaji Maharaj Terminus, Fort, Mumbai",4,3,Type 2|CCS|CHAdeMO,50|150,14.0,Parking|Restroom|Food Court|WiFi
+2,Tata Power - Gateway of India,18.922,72.8347,"Apollo Bunder Road, Near Gateway of India, Fort, Mumbai",3,2,Type 2|CCS,22|50,15.0,Parking|Restaurant|Tourist Area
+3,Tata Power - Bandra Kurla Complex,19.0633,72.8686,"BKC Main Road, Bandra East, Mumbai",6,4,Type 2|CCS|CHAdeMO|Tesla Supercharger,50|150|250,16.0,Parking|Shopping|Restaurant|WiFi
+4,Tata Power - Phoenix Marketcity,19.0868,72.893,"Lal Bahadur Shastri Marg, Kurla West, Mumbai",5,3,Type 2|CCS,50|150,13.5,Parking|Shopping Mall|Food Court|Cinema
+5,Tata Power - Andheri East,19.1136,72.8697,"Teli Gali Road, Andheri East, Mumbai",4,2,Type 2|CCS|CHAdeMO,25|50,14.5,Parking|Restaurant|Hotel
+6,Tata Power - Worli Sea Link,19.033,72.8181,"Annie Besant Road, Worli, Mumbai",3,2,Type 2|CCS,50|150,15.5,Parking|Sea View|Cafe
+7,Tata Power - Lower Parel,19.0008,72.8289,"Senapati Bapat Marg, Lower Parel, Mumbai",5,4,Type 2|CCS|CHAdeMO,50|150,14.0,Parking|Shopping|Restaurant|Office Complex
+8,Tata Power - Dadar TT,19.0178,72.8478,"Dadar TT Circle, Dadar East, Mumbai",3,1,Type 2|CCS,22|50,13.0,Parking|Market|Temple
+9,Tata Power - Prabhadevi,19.0144,72.8309,"Veer Savarkar Marg, Prabhadevi, Mumbai",4,3,Type 2|CCS,50|150,14.5,Parking|Temple|Restaurant
+10,Tata Power - Colaba,18.9067,72.8147,"Nathalal Parikh Marg, Colaba, Mumbai",3,2,Type 2|CCS,22|50,15.0,Parking|Tourist Area|Restaurant|Hotel
+11,Tata Power - Goregaon East,19.1663,72.8526,"Western Express Highway, Goregaon East, Mumbai",4,3,Type 2|CCS,50|150,13.5,Parking|Shopping|Restaurant
+12,Tata Power - Kandivali East,19.2073,72.8505,"90 Feet Road, Kandivali East, Mumbai",3,2,Type 2|CCS,22|50,12.5,Parking|Residential|School
+13,Tata Power - Borivali,19.2304,72.8565,"Dattapada Road, Borivali East, Mumbai",4,3,Type 2|CCS|CHAdeMO,50|150,13.0,Parking|National Park|Restaurant
+14,Tata Power - Malad West,19.1864,72.8347,"Marve Road, Malad West, Mumbai",3,2,Type 2|CCS,50|150,13.5,Parking|Beach|Restaurant
+15,Tata Power - Andheri West,19.135,72.8265,"KL Walawalkar Marg, Andheri West, Mumbai",4,3,Type 2|CCS,50|150,14.0,Parking|Metro Station|Shopping
+16,Tata Power - Vikhroli,19.1076,72.9256,"Godrej One, Vikhroli East, Mumbai",3,2,Type 2|CCS,22|50,13.0,Parking|Garden|Office Complex
+17,Tata Power - Chembur,19.0633,72.8997,"Mahul Road, Chembur East, Mumbai",3,2,Type 2|CCS,50|150,12.5,Parking|Hospital|Restaurant
+18,Tata Power - Bhandup,19.1454,72.937,"Lake Road, Bhandup West, Mumbai",3,2,Type 2|CCS,50|150,12.0,Parking|Lake|Residential
+19,Tata Power - Nariman Point,18.9254,72.8243,"Nariman Point, Mumbai",4,3,Type 2|CCS,50|150,16.0,Parking|Business District|Restaurant|Hotel
+20,Tata Power - Cuffe Parade,18.9147,72.8109,"Cuffe Parade, Mumbai",3,2,Type 2|CCS,50|150,16.5,Parking|Sea View|Restaurant
+21,Tata Power - Vile Parle,19.099,72.8465,"90 Feet Road, Vile Parle East, Mumbai",3,2,Type 2|CCS,22|50,14.0,Parking|Airport|Hotel
+22,Tata Power - Santacruz,19.0825,72.8417,"Santacruz East, Mumbai",3,2,Type 2|CCS,22|50,14.5,Parking|Airport|Restaurant
+23,IOCL - Breach Candy,18.975,72.8011,"Bhulabhai Desai Road, Breach Candy, Mumbai",2,1,Type 2|CCS,50|150,15.0,Parking|Hospital|Garden
+24,Tata Power - Bandra West,19.0544,72.8312,"SV Road, Bandra West, Mumbai",4,3,Type 2|CCS,50|150,15.5,Parking|Shopping|Restaurant|Bandstand
+25,Tata Power - Mahalaxmi,18.9826,72.8311,"Senapati Bapat Marg, Mahalaxmi, Mumbai",3,2,Type 2|CCS,50|150,14.5,Parking|Race Course|Temple
+26,Tata Power - Pune Station,18.5283,73.8737,"Pune Railway Station, Agarkar Chowk, Pune",4,3,Type 2|CCS|CHAdeMO,50|150,13.0,Parking|Railway Station|Food Court
+27,Tata Power - Pune Airport,18.5821,73.9197,"Pune Airport Road, Viman Nagar, Pune",5,4,Type 2|CCS|CHAdeMO,50|150,14.0,Parking|Airport|Restaurant|Hotel
+28,Tata Power - Hinjewadi IT Park,18.5912,73.7389,"Hinjewadi Phase 1, Rajiv Gandhi Infotech Park, Pune",6,4,Type 2|CCS|CHAdeMO,50|150,13.5,Parking|IT Park|Food Court|Shopping
+29,Tata Power - Koregaon Park,18.5362,73.8978,"North Main Road, Koregaon Park, Pune",3,2,Type 2|CCS,22|50,14.5,Parking|Restaurant|Cafe|Shopping
+30,Tata Power - Baner,18.559,73.7814,"Baner Road, Pune",4,3,Type 2|CCS,50|150,13.0,Parking|Residential|Shopping|Restaurant
+31,Tata Power - Wakad,18.5793,73.7696,"Wakad Road, Pune",3,2,Type 2|CCS,50|150,12.5,Parking|Residential|Mall
+32,Tata Power - Kothrud,18.5074,73.8077,"Paud Road, Kothrud, Pune",3,2,Type 2|CCS,22|50,13.0,Parking|Residential|Market
+33,Tata Power - Deccan,18.5196,73.8381,"Deccan Gymkhana, Pune",3,2,Type 2|CCS,50|150,13.5,Parking|Gymkhana|Restaurant|Shopping
+34,Tata Power - Shivaji Nagar,18.5308,73.8478,"Shivaji Nagar, Pune",3,2,Type 2|CCS,50|150,13.0,Parking|Railway Station|Bus Stand
+35,Tata Power - Hadapsar,18.5089,73.926,"Hadapsar Industrial Estate, Pune",4,3,Type 2|CCS,50|150,12.5,Parking|Industrial Area|Restaurant
+36,Shell EV - Magarpatta,18.5156,73.924,"Magarpatta City, Hadapsar, Pune",3,2,Type 2|CCS,50|150,13.5,Parking|IT Park|Shopping|Food Court
+37,Tata Power - Viman Nagar,18.5679,73.8988,"Viman Nagar, Pune",4,3,Type 2|CCS,50|150,13.5,Parking|Airport|Mall|Restaurant
